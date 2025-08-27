@@ -1,0 +1,32 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3000
+      - LOG_LEVEL=info
+      - BODY_LIMIT=1048576
+      - DATABASE_URL=mysql://root:rootpassword@mysql:3306/appdb
+      - CORS_ORIGINS=http://localhost:5173,http://localhost:3000
+      - COMPRESSION_THRESHOLD=1024
+      - JWT_SECRET=dev_secret_change_me
+      - JWT_TTL=30m
+      - RATE_LIMIT_MAX=400
+      - RATE_LIMIT_WINDOW=1 minute
+      - SWAGGER_ENABLED=true
+      - DB_SYNC=alter
+    ports: ["3000:3000"]
+    depends_on: [mysql]
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: appdb
+    command: ["--default-authentication-plugin=mysql_native_password", "--mysqlx=0"]
+    ports: ["3306:3306"]
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
